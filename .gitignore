@@ -1,0 +1,25 @@
+# Folder dependencies (Sangat penting agar tidak berat saat push)
+node_modules/
+
+# Log file (Catatan error atau aktivitas server)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# File konfigurasi lokal (Jika nanti Anda pakai .env untuk simpan data rahasia)
+.env
+.env.local
+
+# Folder build atau dist (Jika Anda melakukan kompilasi)
+dist/
+build/
+
+# File sistem (Sampah bawaan OS)
+.DS_Store
+Thumbs.db
+
+# File temporer hostapd/dnsmasq (Untuk riset Anda)
+*.conf.tmp
+*.pcap
